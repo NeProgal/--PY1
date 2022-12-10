@@ -128,7 +128,7 @@ class Mp3Player:
 
     def memory_boost(self, memory_increase: int) -> int:
         """
-        Ушивание худи
+        Увеличение памяти плеера
         :param memory_increase: На сколько гиигабайт увеличивается память
         :raise ValueError: Если введен не тип int, то вызываем ошибку
         :raise ValueError: Если введено не положительное значние, то вызываем ошибку
@@ -141,7 +141,7 @@ class Mp3Player:
 
     def color_change(self, new_color: str) -> str:
         """
-        Ушивание худи
+        Смена цвета корпуса
         :param new_color: Новый цвет
         :raise ValueError: Если введен не тип str, то вызываем ошибку
         :return: Новый цвет
